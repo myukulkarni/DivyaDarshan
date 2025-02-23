@@ -1,0 +1,212 @@
+.seat-card {
+    width: 1200px;
+    padding: 20px;
+    padding-top: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+  
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: 	Arial;
+    color: #333;
+  }
+  
+  .available {
+    color: green;
+    font-weight: bold;
+    
+  }
+  
+  .occupied {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .waiting {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .seat-grid {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .seat {
+    font-size: 24px;
+  }
+  
+  .available {
+    color: green;
+  }
+  
+  .booked {
+    color: red;
+  }
+  
+  .waiting {
+    color: orange;
+  }
+  
+  
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  button {
+    
+    color: #f97316;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  /* Popup Form */
+  .form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px; /* Increased width */
+    width: 90%;
+    max-height: 80vh; /* Limits height */
+    overflow-y: auto; /* Enables scrolling */
+    position: relative;
+  }
+  
+  
+  .form-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #f97316;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    width: 48%;
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button[type="submit"] {
+    background: green;
+    color: white;
+  }
+  
+  .form-container button[type="button"] {
+    background: red;
+    color: white;
+  }
+  
+  .member-info {
+    display: flex;
+    gap: 20px;
+  }
+  .member-info input {
+    flex: 1;
+  }
+  
+  
+  
+  .slot-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 14px;
+    width: 90%;
+    height: 150px;
+    background-color: #ffffff;
+    border: 1px solid #d1970f;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .slot-button:disabled {
+    background-color: #ffb300;
+    cursor: not-allowed;
+  }
+  
+  .slots-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .slot-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #d39716;
+    text-align: center;
+  }
+  
+  .slots {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Two slots per row */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+  }
+  
+  .icon-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows icons to wrap to the next row */
+    justify-content: center; /* Centers icons */
+    gap: 1px; /* Space between icons */
+    max-width: 180px; /* Adjust this to fit 5 icons per row */
+  }
+  
+  .icon {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .green {
+    color: #34d399; /* Green */
+  }
+  
+  .red {
+    color: #ef4444; /* Red */
+  }
+  
+  .yellow {
+    color: #facc15; /* Yellow */
+  }
