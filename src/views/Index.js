@@ -1,8 +1,11 @@
 /*eslint-disable*/
 import React from "react";
 import { Link } from "react-router-dom";
-
+import main from "../assets/img/pattern_react.png"
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
+import c1 from "../assets/img/component-btn.png"
+import c2 from "../assets/img/component-profile-card.png"
+import c3 from "../assets/img/component-info-card.png"
 import Footer from "components/Footers/Footer.js";
 
 export default function Index() {
@@ -51,7 +54,7 @@ export default function Index() {
 
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
-          src={require("assets/img/pattern_react.png").default}
+          src={main}
           alt="..."
         />
       </section>
@@ -229,17 +232,17 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
                 <img
                   alt="..."
-                  src={require("assets/img/component-btn.png").default}
+                  src={c1}
                   className="w-full align-middle rounded absolute shadow-lg max-w-100-px z-3 left-145-px -top-29-px"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-profile-card.png").default}
+                  src={c2}
                   className="w-full align-middle rounded-lg absolute shadow-lg -top-160-px left-260-px max-w-210-px"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-info-card.png").default}
+                  src={c3}
                   className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px -top-225-px left-40-px z-2"
                 />
                 <img

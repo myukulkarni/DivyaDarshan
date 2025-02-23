@@ -2,6 +2,7 @@ import React from "react";
 
 import Navbar from "components/Navbars/AuthNavbar.js";
 import Footer from "components/Footers/Footer.js";
+import p from "assets/img/team-1-800x800.jpg"
 
 export default function Profile() {
   return (
